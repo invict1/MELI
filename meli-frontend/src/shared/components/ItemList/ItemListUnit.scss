@@ -1,0 +1,45 @@
+@import '../../../App.scss';
+
+.product-price {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+p {
+    margin-top: 30px;
+    font-size: $font12;
+    color: $gray;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.thumbnail {
+    min-height: 180px;
+    object-fit: contain;
+}
+
+.contain-detail {
+    display: flex;
+
+    .info-product {
+        a {
+            color: $black;
+            margin-top: 20px;
+            font-size: $font24;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        img {
+            padding-left: 10px;
+            vertical-align: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+}
