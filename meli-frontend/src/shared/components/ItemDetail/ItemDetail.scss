@@ -1,0 +1,56 @@
+@import '../../../App.scss';
+
+.wrap-list {
+    h1 {
+        margin-top: $spec32;
+        font-size: $font28;
+        margin-bottom: $spec32;
+        margin-left: $spec32;
+    }
+
+    h6 {
+        margin-top: $spec32;
+        margin-bottom: $spec16;
+        font-size: $font14;
+    }
+
+    h4 {
+        font-size: $font24;
+    }
+
+    h3 {
+        margin-top: $spec32;
+        margin-bottom: $spec32;
+        font-size: $font46;
+        font-weight: 400;
+    }
+
+    p {
+        margin-top: $spec32;
+        margin-bottom: $spec32;
+        margin-left: $spec32;
+        font-size: $font16;
+        color: $gray;
+    }
+    
+    button {
+        margin-right: $spec32;
+        width: 75%;
+    }
+
+    .price {
+        display: -webkit-inline-box;
+    }
+
+    .decimal-part {
+        margin-left: auto;
+        margin-top: 30px;
+        font-size: $font24;
+        margin-bottom: $spec32;
+        color: black;
+    }
+
+    .img-fluid {
+        min-width: fit-content;
+    }
+}
