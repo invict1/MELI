@@ -1,0 +1,11 @@
+@import 'styles/variables.scss';
+
+body {
+  background-color: $bg !important;
+}
+
+input.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0);
+  outline: 0 none;
+}
